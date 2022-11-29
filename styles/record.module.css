@@ -1,0 +1,19 @@
+/* width */
+.custom-scroll-bar::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 3px;
+}
+
+/* Track */
+.custom-scroll-bar::-webkit-scrollbar-track {
+  background: #777777;
+  width: 6px;
+  border-radius: 3px;
+}
+
+/* Handle */
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+  background: #ffcc21;
+  width: 6px;
+  border-radius: 3px;
+}
